@@ -1,0 +1,182 @@
+{
+  "workbench.activityBar.location": "top",
+  "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "icons",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "b", "b"],
+      "commands": [":bprevious"]
+    },
+    {
+      "before": ["<leader>", "b", "n"],
+      "commands": [":bnext"]
+    },
+    {
+      "before": ["<leader>", "s", "v"],
+      "commands": [":vsplit"]
+    },
+    {
+      "before": ["<leader>", "s", "h"],
+      "commands": [":split"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "v", "s"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "v", "f"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "v", "r"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+
+    { "before": ["<leader>", "/"], "commands": ["editor.action.commentLine"] },
+    // need to be able to
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<leader>", "a"],
+      "commands": ["editor.action.triggerSuggest"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "vim.digraphs": {},
+  "terminal.integrated.env.osx": {},
+  "editor.lineNumbers": "relative",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "grunt.autoDetect": "on",
+  "editor.formatOnPaste": true,
+  "LineCount.includes": ["src/**", "go/**", "server/src/**"],
+  "LineCount.excludes": [
+    "**/.vscode/**",
+    "**/node_modules/**",
+    "go/pb_data/**",
+    "go/go.mod",
+    "go/go.sum",
+    "src/test.ts",
+    "**/*.proto.d.ts",
+    "**/*.proto.js"
+  ],
+  "LineCount.order": "asc",
+  "LineCount.sort": "code",
+  "LineCount.statistics": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "console-ninja.featureSet": "Pro",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.minimap.renderCharacters": false,
+  "workbench.colorTheme": "Bearded Theme HC Midnight Void",
+  "supermaven.otherWarning": false,
+  "editor.minimap.enabled": false,
+  "supermaven.enable": {
+    "*": true
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "svelte.svelte-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorStyle": "underline",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
